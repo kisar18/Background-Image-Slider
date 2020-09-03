@@ -21,11 +21,11 @@ var images = ["contBcg-0.jpeg", "contBcg-1.jpeg", "contBcg-2.jpeg", "contBcg-3.j
 lBtn.addEventListener('click', () => {
     value -= 1
     checkValue()
-    cont.style.background = "url(/images/" + images[value] + ") center/cover no-repeat"
+    cont.style.background = "url(images/" + images[value] + ") center/cover no-repeat"
 
 })
 rBtn.addEventListener('click', () => {
     value += 1
     checkValue()
-    cont.style.background = "url(/images/" + images[value] + ") center/cover no-repeat"
+    cont.style.background = "url(images/" + images[value] + ") center/cover no-repeat"
 })

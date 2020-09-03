@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background: url("/images/contBcg-0.jpeg") center/cover no-repeat;
+    background: url("images/contBcg-0.jpeg") center/cover no-repeat;
     border: 0.5rem solid #3e92cc;
     position: absolute;
     top: 50%;
